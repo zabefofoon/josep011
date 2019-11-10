@@ -1,6 +1,6 @@
 #sec5 {
   width:100%;
-  background: url("../imgs/b5.png") no-repeat 50% 100%;
+  background: linear-gradient(to bottom right, #ff0092, #1012a2, #1012a2, #1012a2);
   background-size:cover;
 }
 

@@ -1,6 +1,6 @@
 #sec1 {
   height:80vh;
-  background: url("../imgs/b1.png") no-repeat 50% 50%;
+  background: linear-gradient(to bottom left, #0604aa, #ff03c6);
   background-size:cover;
   text-align: center;
 }

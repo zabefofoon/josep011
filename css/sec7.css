@@ -1,6 +1,6 @@
 #sec7 {
   width:100%;
-  background: url("../imgs/b9.png") no-repeat 50% 50%;
+  background: linear-gradient(to bottom right, #ff0092, #55029e);
   background-size:cover;
   overflow: hidden;
 }
