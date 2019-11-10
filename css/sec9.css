@@ -1,0 +1,139 @@
+#sec9 {
+  width:100%;
+  background: url("../imgs/b11.png") no-repeat 50% 50%;
+  background-size:cover;
+  overflow: hidden;
+}
+#sec9 .sectionWrap {
+  width:100%;
+  position: relative;
+}
+#sec9 .sectionWrap .row {
+  opacity:0;
+  transform:translateY(100px);
+  transition: all .5s ease;
+}
+#sec9 .sectionWrap .row .textwrap {
+  display: inline-block;
+}
+#sec9 .sectionWrap .row img {
+  width:24%;
+  margin-left:8%;
+  margin-top:3%;
+}
+#sec9 .sectionWrap .row:nth-child(2) {
+  width:26%;
+  position: absolute;
+  right:8%;
+  z-index: 2;
+  top:30%;
+}
+#sec9 .sectionWrap img.pinkBag {
+  width:100%;
+  transform: translateY(0%);
+}
+
+#sec9 .sectionWrap img.cissor {
+  position: absolute;
+  left:4%;
+  width:80%;
+  z-index: 0;
+}
+
+#sec9 .sectionWrap .imgwrapBlock {
+  width:100%;
+  height:100vh;
+}
+
+.sticker {
+  position: absolute;
+  top:0;
+  left:10%;
+  z-index: 3;
+  width:3%;
+}
+
+.sticker:nth-child(2) {
+  top:10%;
+  left:5%;
+}
+.sticker:nth-child(3) {
+  top:15%;
+  left:7%;
+}
+.sticker:nth-child(4) {
+  top:14%;
+  left:22%;
+}
+.sticker:nth-child(5) {
+  top:38%;
+  left:22%;
+}
+.sticker:nth-child(6) {
+  top:41%;
+  left:23%;
+}
+.sticker:nth-child(7) {
+  top:48%;
+  left:16%;
+}
+.sticker:nth-child(8) {
+  top:2%;
+  left:50%;
+}
+.sticker:nth-child(9) {
+  top:7%;
+  left:54%;
+}
+.sticker:nth-child(9) {
+  top:20%;
+  left:70%;
+}
+.sticker:nth-child(10) {
+  top:22%;
+  left:68%;
+}
+.sticker:nth-child(11) {
+  top:22%;
+  left:74%;
+}
+.sticker:nth-child(12) {
+  top:24%;
+  left:72%;
+}
+
+@media only screen and (max-width: 768px) {
+  #sec9 .sectionWrap {
+    padding:10rem 0;
+  }
+  #sec9 .sectionWrap .row {
+    text-align: right;
+  }
+  #sec9 .sectionWrap .row .textwrap {
+    text-align: left;
+    width:90%;
+  }
+  #sec9 .sectionWrap .row img {
+    width:90%;
+    margin:0;
+  }
+  #sec9 .sectionWrap .row:nth-child(2) {
+    width:100%;
+    position: relative;
+    margin:0 auto;
+    z-index: 2;
+    margin-top:10rem;
+  }
+  #sec9 .sectionWrap img.pinkBag {
+    width:100%;
+    transform: translateY(0%);
+  }
+  #sec9 .sectionWrap .imgwrapBlock {
+    width:100%;
+    height:20vh;
+  }
+  #sec9 .sectionWrap img.cissor {
+    left:20%;
+    width:100%;
+  }
+}

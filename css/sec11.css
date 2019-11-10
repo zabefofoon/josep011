@@ -1,0 +1,73 @@
+#sec11 {
+  width:100%;
+  background: url("../imgs/b13.png") no-repeat 50% 50%;
+  background-size:cover;
+}
+#sec11 .sectionWrap {
+  width:100%;
+  text-align: center;
+}
+#sec11 .sectionWrap .textwrap *{
+  padding-right:2rem;
+}
+#sec11 .sectionWrap .textwrap {
+  text-align: right;
+  padding-bottom:10rem;
+}
+#sec11 .sectionWrap img {
+  width:60%;
+}
+
+#sec11 .sectionWrap .row {
+  width:60%;
+  margin:0 auto;
+  opacity:0;
+  transform:translateY(100px);
+  transition: all .5s ease;
+}
+#sec11 .sectionWrap .row.toprow, #sec11 .sectionWrap .row.middelRow{
+  width:100%;
+  margin:0 auto;
+  padding:0;
+}
+#sec11 .sectionWrap .row .textwrap {
+  display: inline-block;
+  width:50%;
+  text-align: left;
+  float: left;
+}
+
+#sec11 .sectionWrap .row::after {
+  content: "";
+  display: block;
+  clear:both;
+}
+#sec11 .sectionWrap .letter3 {
+  width:10%;
+  position: absolute;
+  top:10%;
+  left:15%;
+}
+
+@media only screen and (max-width: 768px) {
+  #sec11 .sectionWrap .textwrap {
+    text-align: right;
+    padding-bottom:5rem;
+  }
+  #sec11 .sectionWrap img {
+    width:90%;
+  }
+  #sec11 .sectionWrap .row  {
+    width:100%;
+  }
+  #sec11 .sectionWrap .row .textwrap {
+    float: none;
+    width:90%;
+  }
+  #sec11 .sectionWrap .letter3 {
+    width:16%;
+    position: absolute;
+    top:4%;
+    left:2%;
+  }
+}

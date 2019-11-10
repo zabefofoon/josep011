@@ -1,0 +1,51 @@
+* {
+  margin:0;
+  padding:0;
+  color:#fcff00;
+  font-family: TTNorms-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+html {
+  font-size:14px;
+}
+section {
+  position: relative;
+  width:100%;
+  margin:0 auto;
+}
+.sectionWrap {
+  width:80%;
+  height:inherit;
+  position: relative;
+  margin: 0 auto;
+}
+.center {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+h3 {
+  font-size:1.8rem;
+  font-family: TTNorms-Bold;
+	font-weight: normal;
+	font-style: normal;
+  padding-top:1rem;
+  padding-bottom:.5rem;
+}
+p {
+  font-size:1.8rem;
+}
+.row {
+  position: relative;
+}
+.letter {
+  transition: all .5s ease;
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size:8px;
+  }
+}

@@ -1,0 +1,25 @@
+#sec1 {
+  height:80vh;
+  background: url("../imgs/b1.png") no-repeat 50% 50%;
+  background-size:cover;
+  text-align: center;
+}
+#sec1 .textwrap {
+  top:25%;
+}
+#sec1 h2 {
+  font-size:3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #sec1 {
+    height:50vh;
+  }
+  #sec1 .textwrap {
+    width:100%;
+    top:40%;
+  }
+  #sec1 h2 {
+    font-size:2.4rem;
+  }
+}

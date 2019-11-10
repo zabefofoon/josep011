@@ -1,0 +1,13 @@
+#sec4 {
+  width:100%;
+  height:60vw;
+  background: url("../imgs/b4.png") no-repeat 50% 50%;
+  background-size:cover;
+}
+@media only screen and (max-width: 768px) {
+  #sec4 {
+    height:120vw;
+    background: url("../imgs/b4mobile.png") no-repeat 50% 50%;
+    background-size:cover;
+  }
+}
