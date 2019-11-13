@@ -44,6 +44,7 @@
   width:44%;
   opacity: 0;
 }
+
 #sec5 .Imgrow {
   text-align: center;
   position: relative;
@@ -95,7 +96,14 @@
   left:50%;
   transform:translate(-50%);
 }
-
+@keyframes moveRight {
+  0% {
+    transform:translateX(0);
+  }
+  100% {
+    transform:translateX(5%);
+  }
+}
 @media only screen and (max-width: 768px) {
   #sec5 {
     padding-bottom:80px;
