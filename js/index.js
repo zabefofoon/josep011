@@ -1,6 +1,6 @@
 function vp(){
   return new Promise((resolve, reject)=>{
-    we.addEventListener("loadeddata",resolve)
+    we.addEventListener("canplaythrough",resolve)
   })
 }
 vp().then(()=>{
